@@ -5,6 +5,8 @@ public class FileListPanel extends JPanel {
     public FileListPanel() {
         setBackground(new Color(245, 181, 40));
         JLabel fileListLabel = new JLabel("File List");
+        fileListLabel.setFont(new Font("Serif",Font.PLAIN, 25));
+
         JList fileList = new JList();
         fileList.add(new JScrollPane());
         fileList.setSize(150, 450);
