@@ -10,7 +10,6 @@ class MainPanel extends JPanel {
         ButtonPanel buttonPanel = new ButtonPanel();
         TextPanel textPanel = new TextPanel();
 
-        buttonPanel.setSize(300, 440);
         buttonPanel.setBounds(700, 60, 200, 440);
         titlePanel.setSize(320, 50);
         titlePanel.setLocation(330, 0);

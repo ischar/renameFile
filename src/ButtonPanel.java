@@ -12,9 +12,9 @@ class ButtonPanel extends JPanel {
 
         Color color = new Color(0, 108, 227);
 
-        addButton.setBounds(0, 10, 100, 50);
-        convertButton.setBounds(0, 70, 100, 50);
-        removeButton.setBounds(0, 130, 100, 50);
+        addButton.setBounds(0, 0, 100, 50);
+        convertButton.setBounds(0, 60, 100, 50);
+        removeButton.setBounds(0, 120, 100, 50);
         addButton.setBackground(Color.BLUE);
         convertButton.setBackground(new Color(123, 128, 133));
         removeButton.setBackground(new Color(123, 128, 133));
